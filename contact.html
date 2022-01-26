@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>activity</title>
+	</head>
+	<body>
+		<header>
+			<h1>Zuitt IT Solutions</h1>
+		</header>
+
+		<section>
+			<h3>Products Offered</h3>
+
+			<table border="1">
+				<thead>
+					<tr>
+						<th>Package</th>
+						<th>Price</th>
+						<th>Description</th>
+					</tr>
+				</thead>
+
+				<tbody>
+					<tr>
+						<td>Basic</td>
+						<td>&#8369; 500.00</td>
+						<td>Package includes a fully funcational website with desired specifications.</td>
+					</tr>
+					<tr>
+						<td>Premium</td>
+						<td>&#8369; 1000.00</td>
+						<td>Enjoy all the benefits of the basic package and also includes site support and maintenance.</td>
+					</tr>
+					<tr>
+						<th colspan="3">Additional features after initial project is inclusive of charges</th>
+					</tr>
+				</tbody>
+			</table>
+		</section>
+
+		<section>
+			<h3>Contact Form</h3>
+
+			<form action="">
+				<label for="userFirstName">First Name:</label>
+				<br>
+				<input type="text" name="user-first_name" id="userFirstName" required autocomplete>
+				<br>
+
+				<label for="userLastName">Last Name:</label>
+				<br>
+				<input type="text" name="user-last_name" id="userLastName" required autocomplete>
+				<br>
+				
+				<label for="userEmail">Email:</label>
+				<br>
+				<input type="email" name="user-email" id="userEmail" required autocomplete>
+				<br>
+				
+				<label for="userContactNumber">Contact Number:</label>
+				<br>
+				<input type="number" name="user-contact_number" id="userContactNumber" required>
+				<br>
+				
+				<label for="serviceType">Service Type:</label>
+				<br>
+				<select name="service-type" id="serviceType" required>
+					<option value="Front End Programming">Front End Programming</option>
+					<option value="Back End Programming">Back End Programming</option>
+					<option value="Full Stack Programming">Full Stack Programming</option>
+				</select>
+				<br>
+
+				<label for="userPreferredContact">Preferred Contact:</label>
+				<br>
+				<input type="checkbox" name="user-preferred_contact" id="userContactNumber">
+				<label>Email</label>
+				<br>
+				<input type="checkbox" name="user-preferred_contact" id="userContactNumber">
+				<label>Phone Package</label>
+				<br>
+
+				<label>Package Type:</label>
+				<br>
+				<input type="radio" name="package-type" id="packageType1">
+				<label for="packageType1">Basic</label>
+				<br>
+				<input type="radio" name="package-type" id="packageType2">
+				<label for="packageType2">Premium</label>
+				<br>
+				<br>
+
+				<label for="userMessage">Message:</label>
+				<br>
+				<textarea name="user-message" id="userMessage" rows="5" cols="15"></textarea>
+				<br>
+
+				<button type="submit">Send Inquiry</button>
+				<br>
+				<button type="reset">Reset</button>
+			</form>
+		</section>
+	</body>
+</html>
